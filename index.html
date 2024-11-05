@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bod">
+
+<!-- Task 16. Create a sliding push sidebar in JS -->
+<div id="sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+<button class="openbtn" onclick="openNav()">Open Sidebar</button>
+<!-- Task 17. Create a mini calendar using HTML, CSS and Javascript, but of course you will
+mainly focus on JS.-->
+
+<div class="calendar">
+    <div class="month"></div>
+    <div class="day"></div>
+    <div class="date"></div>
+    <div class="year"></div>
+</div>
+
+
+<!-- Task 18.  Create a Drag and Drop using HTML, CSS and Javascript. But mainly focus on
+JS. -->
+<div class="dargAndDrop">
+
+    <div id="left-box">
+        <div class="list" draggable="true"> DRAG ME </div>
+        <div class="list" draggable="true"> DRAG ME </div>
+        <div class="list" draggable="true"> DRAG ME </div>
+        <div class="list" draggable="true"> DRAG ME </div>
+    </div>
+
+    <div id="right-box">
+
+    </div>
+
+</div>
+
+
+<!-- Task 19. Create a mini project of Rock, Paper and Scissor game using HTMl, CSS and
+Javascript, but mainly focus on JS. -->
+<div class="gameDiv">
+    <h1 class="gameText" id="playerText">Player: </h1>
+    <h1 class="gameText" id="computerText">Computer: </h1>
+    <h1 class="gameText" id="resultText">Result: </h1>
+
+    <button onclick="playGame('rock')">ROCK</button>
+    <button onclick="playGame('paper')">PAPER</button>
+    <button onclick="playGame('scissors')">SCISSORS</button>
+</div>
+
+
+<!-- Task 20. Create an easy digital clock using HTML, CSS and Javascript, but mainly
+focus on JS. -->
+<div class="clock">
+
+    <div class="box hours">
+        <p id="hours" class="time"></p>
+    </div>
+
+    <div class="sep"><h1 class="seper">:</h1></div>
+
+    <div class="box min">
+        <p id="mins" class="time"></p>
+    </div>
+
+    <div class="sep"><h1 class="seper">:</h1></div>
+
+    <div class="box sec" >
+        <p id="seconds" class="time"></p>
+    </div>
+
+</div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
